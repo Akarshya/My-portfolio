@@ -305,21 +305,24 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 50px;
 }
 #codingPlatform .coding-platform-container {
-   display: flex;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr); /* Two columns with equal width */
+   gap: 10px; /* Add gap between grid items */
    margin-top: 70px;
    margin-bottom: 10px;
+   
   
  }
  
  #codingPlatform .coding-platform-item {
-   flex: 0 0 25%; /* Adjust width as needed */
    display: flex;
+   justify-content: center; /* Center items horizontally */
+   align-items: center; /* Center items vertically */
+   padding: 10px; /* Add padding to create space between items */
+   box-sizing: border-box; 
  }
  
- #codingPlatform h4 {
-   /* margin-top: 10px; */
-   margin-right: 10px;  /* Adjust spacing between icon and text */
- }
+
  
 
 

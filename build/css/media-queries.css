@@ -19,6 +19,21 @@
       margin: 0 auto 12px auto;
    }
 
+   #codingPlatform .coding-icons {
+      border-radius: 40%;
+      width: 40px; /* Adjust size as needed */
+      height: 40px; /* Adjust size as needed */
+      object-fit: cover; /* Ensures the image fills the entire container without stretching */
+    }
+
+    #codingPlatform .coding-platform-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+
+      
+     
+    }
+
 }
 
 /* screenwidth less than 900px
@@ -27,6 +42,9 @@
 
     /* header styles
    ------------------------------------------------------------------ */
+   #codingPlatform .coding-platform-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); }
    header .banner { padding-bottom: 12px; }
    header .banner-text h1 {
       font: 78px/1.1em 'opensans-bold', sans-serif;
@@ -72,6 +90,7 @@
       font-size: 22px;
       line-height: 46px;
    }
+   
 
     /* Call to Action Section
    ------------------------------------------------------------------- */
@@ -99,6 +118,9 @@
 
    /* mobile navigation
    -------------------------------------------------------------------- */
+   #codingPlatform .coding-platform-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); }
    #nav-wrap {
       font: 12px 'opensans-bold', sans-serif;
       background: transparent !important;
@@ -345,6 +367,9 @@
 
    /* mobile navigation
    -------------------------------------------------------------------- */
+   #codingPlatform .coding-platform-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); }
    #nav-wrap ul#nav { width: auto; float: none; }
 
    /* header styles
