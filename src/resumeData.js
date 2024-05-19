@@ -194,8 +194,7 @@ let resumeData = {
         "Crafted a movie website for seamless browsing, featuring movie displays, reviews, and ratings, fostering user interaction and engagement..",
       des:
         ' ',
-      points: [
-        'Collaboratively developed a movie web app, enhancing user engagement by 40% and reducing bounce rate by 25%. Seamlessly integrated with a Spring Boot API, contributing to the frontend with a team member..'
+      points: [''
       ],
       imgurl: '/images/portfolio/movieweb.jpg',
       techstack: ['React query', 'Javascript', 'React', 'Redux'],
@@ -221,6 +220,22 @@ let resumeData = {
       },
     }, 
     {
+      title: 'Github Repositories listing page',
+      intro:
+        "Designed an Angular 14+ single-page application (SPA) that takes a GitHub username as input and displays the public Github repositories belonging to the user.",
+      des:
+        ' ',
+      points: [
+        'Collaboratively developed a movie web app, enhancing user engagement by 40% and reducing bounce rate by 25%. Seamlessly integrated with a Spring Boot API, contributing to the frontend with a team member..'
+      ],
+      imgurl: '/images/portfolio/Githubprofile.png',
+      techstack: ['Angular','TailwindCSS'],
+      links: {
+        launch: 'https://fyle-internship-challenge-23-ten.vercel.app/',
+        github: 'https://github.com/Akarshya/fyle-internship-challenge-23',
+      },
+    },
+    {
       title: 'Digital Clock',
       intro:
         'Users can set a time and get notified by displaying picture when it matched with current time.',
@@ -236,23 +251,25 @@ let resumeData = {
       },
     },           
    
-    // {
-    //   title: 'Brick Breaker Game',
-    //   intro:
-    //     'A simple brick breaker game using vanilla JS and canvas from HTML5',
-    //   des: 'Rules of the game :',
-    //   points: [
-    //     'There are 2 types of bricks - red brick breaks in 2 hits and blue brick breaks in a single hit.',
-    //     'The user has 3 lives.',
-    //     ' The score is calculated using the number of successful hits made by the user, before losing all his lives',
-    //   ],
-    //   imgurl: '/images/portfolio/brickgame.png',
-    //   techstack: ['JavaScript', 'HTML', 'CSS'],
-    //   links: {
-    //     launch: 'https://cjchirag7.github.io/break_the_brick/',
-    //     github: 'https://github.com/cjchirag7/break_the_brick',
-    //   },
-    // },
+    {
+      title: 'Video Player',
+      intro:
+        "Designed a responsive video player which can play any YouTube video and allows the user to save notes corresponding to specific timestamps of the video.",
+      des:
+        ' ',
+      points: [
+        'Video Player:Embed a YouTube video player that can play any YouTube video.The video should be changeable based on a provided video ID.',
+        'Notes Functionality:Users can add notes linked to specific timestamps in the video.',
+        'Local Storage: Saved notes in the local storage. Notes should be tied to the video ID, so changing the video should display the corresponding notes for the new video ID.',
+      ],
+      imgurl: '/images/portfolio/Videoplayer.png',
+      techstack: ['Javascript', 'React', 'Redux'],
+      links: {
+        launch: 'https://video-player-theta-black.vercel.app/',
+        github: 'https://github.com/Akarshya/Video-player',
+      },
+    },
+   
    
   ],
 
