@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Typography, Button } from '@material-ui/core';
 import '../InfoModal.css';
 
-export default function({ project, handleClose }) {
+export default function InfoModal({ project, handleClose }) {
 	const modalContainerStyle = {
 		position: 'fixed',
 		top: '0',
