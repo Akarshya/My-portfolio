@@ -41,6 +41,14 @@ let resumeData = {
 
   ],
   work: [
+      {
+        companyName: 'Neura Dynamics',
+        position: 'Software Engineer',
+        duration: 'June 2024 - Present',
+        desc:
+          'Developed AI-powered web applications including ServicePoints (Shopify-integrated support platform) and Adnosaur (product discovery tool), reducing customer query response time by 30% and serving 1,000+ active users. Implemented comprehensive testing and CI/CD automation achieving 100% deployment automation.',
+        companyLink: 'https://neuradynamics.ai/',
+      },
     {
       companyName: 'Aakash Educational Services Limited',
       position: 'Software Engineer',
@@ -106,6 +114,10 @@ let resumeData = {
           img: '/images/firebase.png',
           name: 'Firebase',
         },
+        {
+          img: '/images/postgresql.png',
+          name: 'PostgreSQL',
+        },
       ],
     },
     {
@@ -114,6 +126,10 @@ let resumeData = {
         {
           img: '/images/react.png',
           name: 'React',
+        },
+        {
+          img: '/images/nextjs.png',
+          name: 'Next.js',
         },
         {
           img:
@@ -149,6 +165,19 @@ let resumeData = {
       ],
     },
     {
+      category: 'Testing & Automation',
+      list: [
+        {
+          img: '/images/cypress.jpg',
+          name: 'Cypress',
+        },
+        {
+          img: 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/junit5.svg',
+          name: 'JUnit',
+        },
+      ],
+    },
+    {
       category: 'Others',
       list: [
         {
@@ -171,6 +200,25 @@ let resumeData = {
     },
   ],
   portfolio: [
+    {
+      title: 'Rental Property App',
+      intro:
+        "The project is a scalable Next.js real estate application designed to manage rental properties, featuring user authentication for both tenants and managers, property search capabilities, and dashboards for tracking favorites and applications.",
+      des:
+        '',
+      points: [
+          'Developed a full-stack rental property application with advanced map-based search and filtering.',
+          'Utilized Next.js, Node.js, and AWS (EC2, Cognito, S3) for full-stack development and deployment.',
+          'Optimized complex, location-based searches using PostgreSQL with PostGIS.',
+
+      ],
+      imgurl: '/images/portfolio/RentalProperty.png',
+      techstack: ['Next.js', 'Node.js','Expressjs','PostgreSQL','PostGIS','AWS','Cognito','S3','TypeScript','Prisma'],
+      links: {
+        launch: 'https://main.d248m3n83hj0xw.amplifyapp.com/',
+        github: 'https://github.com/Akarshya/Real-estate',
+      },
+    },
     {
       title: 'StudyNotion-Ed Tech',
       intro:
