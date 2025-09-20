@@ -30,7 +30,7 @@ let resumeData = {
   aboutme:
   "I'm a Software Engineer. I have done my undergrad from IIT(ISM) Dhanbad. My hobbies are cycling and playing badminton. I like to learn new technical skills in my free time.",
   address: 'India',
-  website: 'https://cjchirag7.github.io',
+  website: 'https://my-portfolio-1i1p.vercel.app/',
   education: [
     {
       UniversityName: 'Indian Institute of Technology (ISM) Dhanbad',
@@ -212,7 +212,7 @@ let resumeData = {
           'Optimized complex, location-based searches using PostgreSQL with PostGIS.',
 
       ],
-      imgurl: '/images/portfolio/RentalProperty.png',
+      imgurl: '/images/portfolio/rentalproperty.png',
       techstack: ['Next.js', 'Node.js','Expressjs','PostgreSQL','PostGIS','AWS','Cognito','S3','TypeScript','Prisma'],
       links: {
         launch: 'https://main.d248m3n83hj0xw.amplifyapp.com/',
